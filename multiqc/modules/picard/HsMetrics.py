@@ -136,9 +136,9 @@ def parse_reports(self):
             'format': '{:.0f}',
             'scale': 'Blues',
         }
-        self.general_stats_headers['PCT_TARGET_BASES_30X'] = {
-            'title': 'Target Bases 30X',
-            'description': 'Percent of target bases with coverage &ge; 30X',
+        self.general_stats_headers['PCT_TARGET_BASES_20X'] = {
+            'title': 'Target Bases 20X',
+            'description': 'Percent of target bases with coverage &ge; 20X',
             'max': 100,
             'min': 0,
             'suffix': '%',
